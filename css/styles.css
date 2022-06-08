@@ -286,4 +286,115 @@ width: 30%;
    cursor: pointer;
   }
 
+   /** media queries for responsive interface **/
+ /** tablet view **/
+ @media (min-device-width: 700px) 
+ and (max-device-width: 1280px)
+ and (-webkit-min-device-pixel-ratio: 1){
+   * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+   body{
+     background-color: rgb(250, 248, 246);
+   }
+
+   #page-wrapper{
+       width: 100%;
+   }
+
+   .container {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    height: auto;
+  }
+
+   .main{
+    max-height: 60vh;
+    width: 100%;
+    display: flex;   
+    margin: 0 auto;
+  }
+
+  .leftArea > img{
+    width: 200px;
+    float: right; 
+    margin-top: -40px;
+  }
+
+  .leftHeading{
+    font-size: 46px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    position: relative;
+  }
+
+  .leftParagragh{
+    font-size: 18px;
+    margin-bottom: 30px;
+    word-spacing: 1.5px;
+    line-height: 20px;
+  }
+
+  .mid > img {
+    height: 45vh;
+    width: 360px;
+    margin-left: -100px;  
+  }
+  
+  .cover{
+    margin-left: 35px;
+    background-color:#172339;
+    border-radius: 10px;
+    
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+  }
+
+  .jImage > img {
+    height: 415px;
+    margin-left: 70px;
+  }
+
+  .coverMid{
+    margin: 20px;
+  }
+
+  .coverHeading{
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;    
+}
+
+.coverRight{
+    width: 100%;
+}
+  .quote{
+    font-size: 20px;
+    word-spacing: 5px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .footer{
+      margin-top: -140px;
+  }
+
+  .footIcon{
+    height: 28px;
+    width: 28px;
+  }
+
+
+  
+}
+
 
