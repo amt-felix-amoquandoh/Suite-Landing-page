@@ -8,11 +8,19 @@
   
   body {
     background-color: rgb(250, 248, 246);
-    font-family: 'Lato', sans-serif;
+    font-family: 'Epilogue', sans-serif;
   }
   
   #page-wrapper {
     position: relative;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    height: 60vh;
   }
 
   /** header and navbar section styles **/
@@ -54,9 +62,113 @@
     margin-left: auto;
 }
 
-@media only screen and (max-width: 600px ){
+@media  (max-width: 600px ){
     .navItems{
         font-size: 0.5em;
         padding: 0;
     }
+
+    .leftHeading{
+        font-size: 30px;
+        margin-bottom: 10px;
+        position: relative;
+      }
+    
 }
+
+ /** main section styles **/
+ .main{
+    grid-column: 1/-1;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .left{
+    color: #172339;
+    width:58%;
+    position: relative;
+}
+
+.leftArea{
+  margin-top: 80px;
+  margin-right: -30px;
+}
+
+
+.leftArea > img{
+  float: right; 
+  margin-top: -40px;
+}
+
+
+.leftHeading{
+  font-size: 60px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.leftHeading > span {
+  font-weight: 900;
+}
+
+.leftParagragh{
+  font-size: larger;
+  margin-bottom: 30px;
+  word-spacing: 5px;
+  line-height: 30px;
+}
+
+.leftButton{
+  background-color: #172339;
+  color: #faf8f6;
+  padding: 12px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.leftButton:hover{
+  background: linear-gradient(35deg, #Cb30e3,#Ffa84e );
+  cursor: pointer;
+  border: none;
+  padding: 14px;
+}
+
+.mid{
+width: 30%;
+}
+
+.mid > img {
+  height: 60vh;
+  width: 430px;
+  margin-left: -120px;  
+}
+
+.right{ 
+       
+  width: 15%;  
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  align-items: center;
+  margin: 80px;
+  gap: 15px;
+  color: #172339;
+}
+
+.contentText{
+  text-decoration: none;
+  color: #787776;
+  margin-top: -15px;
+}
+
+.contentDigits{
+  font-size: 42px;
+  
+}
+
