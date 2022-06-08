@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap');
+/** general styling **/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(250, 248, 246);
+    font-family: 'Lato', sans-serif;
+  }
+  
+  #page-wrapper {
+    position: relative;
+  }
+
+  /** header and navbar section styles **/
+  #header{
+    max-height: 10vh;
+  }
+
+.navbar{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    grid-column: 1/-1;
+}
+
+.navItems{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0px 70px;     
+}
+
+.navlogo{
+    padding: 5px;
+}
+
+.navButton{
+  background: white;
+  color: rgb(23, 35, 57);
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.navButton:hover{
+    background-color: #172339;
+    color: #faf8f6;
+    cursor: pointer;
+  }
+
+  .navItemBtn{
+    margin-left: auto;
+}
+
+@media only screen and (max-width: 600px ){
+    .navItems{
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
