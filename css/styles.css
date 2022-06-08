@@ -77,6 +77,10 @@
 }
 
  /** main section styles **/
+ #main{
+     margin-top: 60px;
+     margin-bottom: 60px;
+ }
  .main{
     grid-column: 1/-1;
     width: 85%;
@@ -97,7 +101,7 @@
 
 .leftArea > img{
   float: right; 
-  margin-top: -40px;
+  margin-top: -50px;
 }
 
 
@@ -141,7 +145,7 @@ width: 30%;
 }
 
 .mid > img {
-  height: 60vh;
+  height: 70vh;
   width: 430px;
   margin-left: -120px;  
 }
@@ -181,7 +185,8 @@ width: 30%;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 150px;
+    margin-bottom: 50px;
   }
   
   .coverLeft{
@@ -232,4 +237,53 @@ width: 30%;
     word-spacing: 5px;
     line-height: 30px;
   }
+
+  /** footer styles **/
+  #footer{
+      margin-top: 170px;
+      margin-bottom: 30px;
+      height: 10vh;
+  }
+
+  .footer{
+    grid-column: 1/-1;
+  }
+
+  .footItems{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 20px;
+    margin: 0px 90px; 
+  }
+
+  .footLeft{
+    width: 30%;          
+  }
+
+  .footMid{
+   width: 40%;
+    color: #787776;
+    text-align: center;
+  }
+
+  .footRight{
+   display: flex;
+   flex-direction: row;
+   justify-content: end;
+   width: 30%;
+  }
+
+  .footIcon{
+      height: 30px;
+      width: 30px;
+      margin: 20px;
+  }
+
+  .footIcon:hover {
+   background-color: #787776;
+   cursor: pointer;
+  }
+
 
