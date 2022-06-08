@@ -18,7 +18,7 @@
   .container {
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     height: 60vh;
   }
@@ -38,7 +38,7 @@
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin: 0px 70px;     
+    margin: 0px 90px;     
 }
 
 .navlogo{
@@ -79,7 +79,7 @@
  /** main section styles **/
  .main{
     grid-column: 1/-1;
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
   }
 
@@ -148,7 +148,7 @@ width: 30%;
 
 .right{ 
        
-  width: 15%;  
+  width: 25%;  
 }
 
 .content{
@@ -171,4 +171,65 @@ width: 30%;
   font-size: 42px;
   
 }
+
+/**cover styles **/
+.cover{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 60vh;
+    background-color:#172339;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+  }
+  
+  .coverLeft{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    background: url("../assets/pattern-blur.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+  
+  .coverMid{
+    margin-left: -50px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .jImage{
+    margin-top: -60px;  
+   
+  }
+  
+  .jImage > img {
+    height: 515px;
+    margin-left: 100px;
+  }
+  
+  .coverRight{
+    display: flex;
+    flex-direction: column;
+    color: #faf8f6;
+    width: 30%;
+  }
+  
+  .coverHeading{
+    font-size: 38px;
+    
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+  
+  .quote{
+    font-size: 20px;
+    word-spacing: 5px;
+    line-height: 30px;
+  }
 
