@@ -38,7 +38,7 @@
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin: 0px 90px;     
+    margin: 0 90px;     
 }
 
 .navlogo{
@@ -289,28 +289,41 @@ width: 30%;
    /** media queries for responsive interface **/
  /** tablet view **/
  @media (min-device-width: 700px) 
- and (max-device-width: 1280px)
- and (-webkit-min-device-pixel-ratio: 1){
-   * {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
- }
+ and (max-device-width: 1280px){
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
    body{
      background-color: rgb(250, 248, 246);
+     min-width: 100%;
+     display: flex;
+     align-items: center;
+     
    }
 
    #page-wrapper{
-       width: 100%;
+     min-width: 100%;
+      
    }
 
    .container {
     display: flex;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     height: auto;
   }
+
+  .navItems{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0 50px; 
+    width: 90%;    
+}
+
 
    .main{
     max-height: 60vh;
@@ -318,6 +331,13 @@ width: 30%;
     display: flex;   
     margin: 0 auto;
   }
+
+  .left{
+    margin-left: 15px;
+    color: #172339;
+    width: 40%;
+    position: relative;
+}
 
   .leftArea > img{
     width: 200px;
@@ -338,12 +358,24 @@ width: 30%;
     word-spacing: 1.5px;
     line-height: 20px;
   }
+  
+.mid{
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  }
 
   .mid > img {
     height: 45vh;
     width: 360px;
-    margin-left: -100px;  
+    margin-left: -70px;  
   }
+
+  .right {
+    width: 10%;
+    display: flex;
+    
+}
   
   .cover{
     margin-left: 35px;
@@ -358,9 +390,19 @@ width: 30%;
     margin-top: 150px;
   }
 
+  .coverLeft{
+    display: flex;
+    width: 40%;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+  
+
   .jImage > img {
     height: 415px;
-    margin-left: 70px;
+    margin-left: 30px;
   }
 
   .coverMid{
@@ -398,3 +440,27 @@ width: 30%;
 }
 
 
+/* Mobile devices view */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 700px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+   
+    body{
+      background-color: aqua;
+    }
+
+    .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .main{
+      width: 100%;
+      display: flex;  
+      flex-direction: column; 
+      margin: 0 auto;
+    }
+}
