@@ -505,6 +505,7 @@ width: 30%;
  .navItems{
    font-size: 0.1em;         
      margin: 0 10px;
+     margin-bottom: 50px;
  }
 
 
@@ -602,11 +603,11 @@ width: 30%;
 
 .coverLeft{
  display: flex;
- width: 100%;
+ width: 90%;
  justify-content: center;
  background-repeat: no-repeat;
  background-position: center;
- margin-left: -30px;
+
  
 }
 
@@ -615,7 +616,8 @@ width: 30%;
 }
 
 .jImage > img {
- height: 315px;
+  height: 315px;
+  margin-left: 10px;
 }
 
 .coverMid{
