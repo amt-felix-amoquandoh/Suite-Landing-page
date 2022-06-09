@@ -478,20 +478,17 @@ width: 30%;
       justify-content: center;
       align-items: center;
       min-width: max-device-width;
-      margin-top: 100px;
+      margin-top: 150px;
       margin-bottom: 100px;
     }
 
-    #header{
-      margin-bottom: 400px;
+    #header{     
       max-width: max-device-width;
       
     }
 
-    .navbar{
-      
-      margin-top: 20px;
-      margin-bottom: 30px;
+    .navbar{      
+      margin-top: 20px;      
       grid-column: 1/-1; 
       max-width: max-device-width;     
   }
@@ -499,6 +496,7 @@ width: 30%;
   .navItems{
     font-size: 0.1em;         
       margin: 0 10px;
+      margin-bottom: 250px;
   }
 
 
@@ -563,7 +561,7 @@ width: 30%;
     
 .right{ 
   display: flex;
-  margin-bottom: 300px;       
+  margin-bottom: 150px;       
   width: fit-content; 
   margin-top: -50px; 
 }
@@ -599,9 +597,7 @@ width: 30%;
   width: 100%;
   justify-content: center;
   background-repeat: no-repeat;
-  background-position: center;
-  margin-left: -30px;
-  
+  background-position: center;  
 }
 
 .jImage{
@@ -610,6 +606,7 @@ width: 30%;
 
 .jImage > img {
   height: 315px;
+  margin-right: 100px;
 }
 
 .coverMid{
