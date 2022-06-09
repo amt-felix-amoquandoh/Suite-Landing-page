@@ -517,12 +517,12 @@ width: 30%;
 
    }
 
-   .left{
-     color: #172339;
-     width:90%;
-     position: relative;
-     margin-top: 150px;
- }
+   .left {
+    color: #172339;
+    width: 90%;
+    position: relative;
+    margin-top: 200px;
+}
 
  .leftArea > img{
    width: 200px;
