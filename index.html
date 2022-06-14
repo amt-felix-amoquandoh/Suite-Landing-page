@@ -1,88 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+    <title>Suite landing page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
-  <link href="./css/styles.css" rel="stylesheet" type="text/css" />
-  <title>Suite landing page</title>
-</head>
-
-<body>
+  <body>
   <!--project begins here-->
   <!--header and navbar section-->
-  <div class="page-wrapper">
-    <header id="header">
-      <nav id="nav-bar" class="navbar">
-        <ul class="navItems">
-          <li class="navlogo"><img class="img-fluid" id="header-img" src="./assets/logo.svg" alt="suite logo" />
-          </li>
-          <li class="navItemBtn">
-            <button type="button" class="navButton">
-              <b>Request Beta Access</b>
-            </button>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <nav class="navbar">
+      <div class="container">
+        <a class="navbar-brand">
+          <img src="./assets/logo.svg" alt="suite-logo">
+        </a>
+  
+          <button class="navButton" type="submit">Request Beta Access</button>
+        </form>
+      </div>
+    </nav>
     <!--end of header/navbar-->
 
-
-    <!--main section below-->
-    <section id="main" class="main">
+     <!--main section below-->
+     <section id="main">
       <div class="container">
-
-        <div class="left">
-          <div class="leftArea">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 leftArea">
             <img alt="" src="./assets/pattern-curved-line-1.svg">
             <p class="leftHeading">A <span>super solution</span><br>for your<span> business</span></p>
             <p class="leftParagragh">Our marketing and sales automations<br> help you scale your outreach to
               get<br> more leads for your company. </p>
             <button type="button" class="leftButton">
               <b>Request Beta Access</b>
-            </button>
+            </button><br>
           </div>
-        </div>
-        <div class="mid">
-          <img alt="" src="./assets/image-hero-landscape.png">
-        </div>
-        <div class="right">
-          <div class="content">
-            <p>
-              <h1><b class="contentDigits">2K</b>+</h1>
+          <div class="col-lg-4 col-md-6 col-sm-12 mid">
+            <img alt="" src="./assets/image-hero-landscape.png">
+          </div>
+          <div class="col-lg-2 col-md-12 col-sm-12">
+            <div class="content">
+              <p>
+                <h1><b class="contentDigits">2K</b>+</h1>
               <a href="#" class="contentText">Companies</a>
             </p>
             <p class="">
-              <h1 class="contentDigits textLeft"><b>8</b></h1>
+              <h1><b class="contentDigits">8</b></h1>
               <a href="#" class="contentText">Languages</a>
             </p>
             <p>
-              <h1 class="contentDigits">1.2M</h1>
+              <h1><b class="contentDigits">1.2M</b></h1>
               <a href="#" class="contentText">Leads</a>
-            </p>
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-
+     </section>
     <!--main section ends here-->
-
-
-    <!--cover section below-->
+     <!--cover section-->
     <section id="cover">
-      <div class="container">
-        <div class="cover">
-          <div class="coverLeft">
+      <div class="container cover">
+        <div class="row">
+          <div class="col-lg-5 col-md-12 col-sm-12 coverLeft">
             <div class="jImage">
               <img alt="" src="./assets/image-jeremy-large.png">
             </div>
           </div>
-          <div class="coverMid">
+          <div class="col-lg-2 col-md-12 col-sm-12 coverMid">
             <img alt="" src="./assets/pattern-curved-line-2.svg">
           </div>
-          <div class="coverRight">
+          <div class="col-lg-5 col-md-12 col-sm-12 coverRight">
             <h1 class="coverHeading">It just works.</h1>
             <blockquote class="quote" cite="#">
               “I really like how it is an all-in-one solution that handle many of
@@ -93,22 +88,21 @@
               CMO, Fylo
             </blockquote>
           </div>
-
         </div>
-      </div>
-    </section>
+     </section>
     <!--cover section ends here-->
-    <!--footer below-->
-    <section id="footer">
-      <div class="footer">
-        <div class="footItems">
-          <div class="footLeft">
-            <img class="img-fluid" id="header-img" src="./assets/logo.svg" alt="suite logo" />
+
+     <!--footer section-->
+     <section id="footer">
+      <div class="container footer">
+        <div class="row footerItems">
+          <div class="col col-lg-3 col-md-4 col-sm-12 footLeft">
+            <img class="foot-img" id="footer image" src="./assets/logo.svg" alt="suite logo" />
           </div>
-          <div class="footMid">
-            <h4> Copyright - Suite</h4>
+          <div class="col col-lg-6 col-md-4 col-sm-12 footMid">
+            <p> Copyright - Suite</p>
           </div>
-          <div class="footRight">
+          <div class="col col-lg-3 col-md-4 col-sm-12 footRight">
             <a>
               <img class="footIcon" src="./assets/icon-facebook.svg" alt="">
             </a>
@@ -120,11 +114,25 @@
             </a>
           </div>
         </div>
-      </div>
-    </section>
-  </div>
-  <!--end of project-->
-  <script></script>
-</body>
+     </section>
+    <!--footer ends here-->
 
+    
+
+
+
+
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
 </html>
